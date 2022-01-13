@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task23">
         <activity
+            android:name=".Reg"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity

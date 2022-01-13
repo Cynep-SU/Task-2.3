@@ -20,6 +20,5 @@ class MyThread(val context: MainActivity): Thread(){
         sleep(3000)
         context.startActivity(Intent(context, LoginActivity::class.java))
         context.finish()
-        super.run()
     }
 }
