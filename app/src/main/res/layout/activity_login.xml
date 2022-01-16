@@ -99,6 +99,7 @@
         android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
+        android:onClick="Login"
         android:text="Sign In"
         android:textAllCaps="false"
         android:textColor="@color/white"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/launchscreen"
-    tools:context=".LoginActivity">
+    tools:context=".Reg">
 
     <ImageView
         android:id="@+id/imageView"
@@ -55,6 +55,7 @@
         android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
+        android:onClick="back"
         android:text="Sign Up"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -70,6 +71,7 @@
         android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
+        android:onClick="back"
         android:text="@android:string/cancel"
         android:textAllCaps="false"
         android:textColor="@color/white"

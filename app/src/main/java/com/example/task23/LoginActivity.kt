@@ -13,4 +13,8 @@ class LoginActivity : AppCompatActivity() {
     fun RegOnclick(v: View){
         startActivity(Intent(this, Reg::class.java))
     }
+
+    fun Login(v: View){
+        startActivity(Intent(this, Profile::class.java))
+    }
 }
