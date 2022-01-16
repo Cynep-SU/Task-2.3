@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.task23.Profile
+import com.example.task23.R
 import com.example.task23.databinding.FragmentDashboardBinding
 
 class ForumFragment : Fragment() {
@@ -24,6 +26,7 @@ class ForumFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        (this.activity as Profile).findViewById<TextView>(R.id.textView6).text = "Forum"
         forumViewModel =
             ViewModelProvider(this).get(ForumViewModel::class.java)
 
