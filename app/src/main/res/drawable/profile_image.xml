@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/cat"/>
+    </item>
+    <item android:top="100dp">
+        <shape>
+            <gradient android:type="linear" android:startColor="@color/black" android:angle="90"/>
+        </shape>
+    </item>
+</layer-list>
