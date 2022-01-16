@@ -16,5 +16,6 @@ class LoginActivity : AppCompatActivity() {
 
     fun Login(v: View){
         startActivity(Intent(this, Profile::class.java))
+        finish()
     }
 }
